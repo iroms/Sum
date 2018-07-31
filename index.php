@@ -1,12 +1,7 @@
 <?php
 
-function sum($a, $b)
-{
-    $res = $a + $b;
-    return "The terrible deamon says, that $a + $b = $res\n";
-}
+include "src/Sum.php";
 
-$a = 32;
-$b = 45;
+$sum = new iroms\Sum();
 
-echo sum($a, $b);
+echo $sum->sum(32, 45);

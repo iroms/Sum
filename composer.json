@@ -1,0 +1,13 @@
+{
+    "name": "iroms/sum",
+    "description": "The test function",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "iroms",
+            "email": "arvl@bk.ru"
+        }
+    ],
+    "require": {}
+}
