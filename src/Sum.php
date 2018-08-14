@@ -1,6 +1,6 @@
 <?php
 
-namespace iroms;
+namespace Iroms;
 
 class Sum
 {
@@ -8,7 +8,7 @@ class Sum
     function sum($a, $b)
     {
         $res = $a + $b;
-        return "The terrible deamon says, that $a + $b = $res\n";
+        return "Iroms says, that $a + $b = $res\n";
     }
 
 }
